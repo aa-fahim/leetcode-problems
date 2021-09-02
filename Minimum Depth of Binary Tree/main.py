@@ -4,6 +4,12 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+'''
+    BFS Approach
+    
+    Time Complexity: O(n) where n is the number of nodes in the tree
+'''
 class Solution:
     def minDepth(self, root: Optional[TreeNode]) -> int:
         queue = [root] if root else []
