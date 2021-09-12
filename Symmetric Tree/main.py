@@ -22,7 +22,7 @@ class Solution:
         if not left and not right:
             return True
         
-        if (not left and right) or (left and not right):
+        if not left or not right:
             return False
         
         if left.val != right.val:
